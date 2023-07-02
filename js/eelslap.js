@@ -94,7 +94,7 @@
                 var container = document.querySelector(".addBtn");
                 var link = document.createElement('a');
                 link.id = 'myLink';
-                link.href = '../../2'; // Замените ссылку на вашу целевую страницу
+                link.href = './79-JRVEQBEPBASHFVAT';
                 var randomIndex = Math.floor(Math.random() * nextPhrase.length);
                 link.textContent = nextPhrase[randomIndex];
                 hideButton=false;
