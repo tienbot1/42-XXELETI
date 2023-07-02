@@ -36,10 +36,10 @@
 			if(this.complete) $(this).load();
 		});
 
-		$("#eelimage1").attr("src", "../1/images/eelslap_site_panorama1.jpeg");
-		$("#eelimage2").attr("src", "../1/images/eelslap_site_panorama2.jpeg");
-		$("#eelimage3").attr("src", "../1/images/eelslap_site_panorama3.jpeg");
-		$("#eelimage4").attr("src", "../1/images/eelslap_site_panorama4.jpeg");
+		$("#eelimage1").attr("src", "./images/eelslap_site_panorama1.jpeg");
+		$("#eelimage2").attr("src", "./images/eelslap_site_panorama2.jpeg");
+		$("#eelimage3").attr("src", "./images/eelslap_site_panorama3.jpeg");
+		$("#eelimage4").attr("src", "./images/eelslap_site_panorama4.jpeg");
 	};
 
 	var imageLoaded = function() {
